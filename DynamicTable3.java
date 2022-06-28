@@ -79,7 +79,7 @@ public class DynamicTable3 {
 	public void mp3PlayerSample(String filename) {
 		this.filename = filename;
 	}
-////////////////////// IMITAR FUNCION isComplete de PLAYER.CALSSSS AAAAAAAAAAAAAAAAAA
+////////////////////// IMITAR FUNCION isComplete 
 
 	static boolean pausa = false;
 	private JTextField txtcancionactual;
@@ -99,7 +99,7 @@ public class DynamicTable3 {
 			txtcancionactual.setText(String.valueOf(model.getValueAt(eno, 0)));
 			playercontrol = (BasicController) player3;
 
-			// AÑADIR FUNCION PARA QUE SIGA REPRODUCIENDO LA SIGUIENTE
+			// AÃ‘ADIR FUNCION PARA QUE SIGA REPRODUCIENDO LA SIGUIENTE
 		} catch (BasicPlayerException | FileNotFoundException e1) {
 			e1.printStackTrace();
 		}
@@ -142,19 +142,19 @@ public class DynamicTable3 {
 				try {
 					TimeUnit.MILLISECONDS.sleep(100);
 				} catch (InterruptedException e1) {
-					// TODO Bloque catch generado automáticamente
+					// TODO Bloque catch generado automÃ¡ticamente
 					e1.printStackTrace();
 				}
 				papa();
 				try {
 					TimeUnit.MILLISECONDS.sleep(100);
 				} catch (InterruptedException e1) {
-					// TODO Bloque catch generado automáticamente
+					// TODO Bloque catch generado automÃ¡ticamente
 					e1.printStackTrace();
 				}
 				playercontrol.play();
 			} catch (BasicPlayerException e1) {
-				// TODO Bloque catch generado automáticamente
+				// TODO Bloque catch generado automÃ¡ticamente
 				e1.printStackTrace();
 			}
 
@@ -174,19 +174,19 @@ public class DynamicTable3 {
 					try {
 						TimeUnit.MILLISECONDS.sleep(100);
 					} catch (InterruptedException e1) {
-						// TODO Bloque catch generado automáticamente
+						// TODO Bloque catch generado automÃ¡ticamente
 						e1.printStackTrace();
 					}
 					papa();
 					try {
 						TimeUnit.MILLISECONDS.sleep(100);
 					} catch (InterruptedException e1) {
-						// TODO Bloque catch generado automáticamente
+						// TODO Bloque catch generado automÃ¡ticamente
 						e1.printStackTrace();
 					}
 					playercontrol.play();
 				} catch (BasicPlayerException e1) {
-					// TODO Bloque catch generado automáticamente
+					// TODO Bloque catch generado automÃ¡ticamente
 					e1.printStackTrace();
 				}
 				bucle1();
@@ -208,19 +208,19 @@ public class DynamicTable3 {
 					try {
 						TimeUnit.MILLISECONDS.sleep(100);
 					} catch (InterruptedException e1) {
-						// TODO Bloque catch generado automáticamente
+						// TODO Bloque catch generado automÃ¡ticamente
 						e1.printStackTrace();
 					}
 					papa();
 					try {
 						TimeUnit.MILLISECONDS.sleep(100);
 					} catch (InterruptedException e1) {
-						// TODO Bloque catch generado automáticamente
+						// TODO Bloque catch generado automÃ¡ticamente
 						e1.printStackTrace();
 					}
 					playercontrol.play();
 				} catch (BasicPlayerException e1) {
-					// TODO Bloque catch generado automáticamente
+					// TODO Bloque catch generado automÃ¡ticamente
 					e1.printStackTrace();
 				}
 				break;
@@ -282,20 +282,20 @@ public class DynamicTable3 {
 					try {
 						TimeUnit.MILLISECONDS.sleep(100);
 					} catch (InterruptedException e1) {
-						// TODO Bloque catch generado automáticamente
+						// TODO Bloque catch generado automÃ¡ticamente
 						e1.printStackTrace();
 					}
 					papa();
 					try {
 						TimeUnit.MILLISECONDS.sleep(100);
 					} catch (InterruptedException e1) {
-						// TODO Bloque catch generado automáticamente
+						// TODO Bloque catch generado automÃ¡ticamente
 						e1.printStackTrace();
 					}
 					playercontrol.play();
 
 				} catch (BasicPlayerException e1) {
-					// TODO Bloque catch generado automáticamente
+					// TODO Bloque catch generado automÃ¡ticamente
 					e1.printStackTrace();
 				}
 
@@ -365,19 +365,19 @@ public class DynamicTable3 {
 					try {
 						TimeUnit.MILLISECONDS.sleep(100);
 					} catch (InterruptedException e1) {
-						// TODO Bloque catch generado automáticamente
+						// TODO Bloque catch generado automÃ¡ticamente
 						e1.printStackTrace();
 					}
 					papa();
 					try {
 						TimeUnit.MILLISECONDS.sleep(100);
 					} catch (InterruptedException e1) {
-						// TODO Bloque catch generado automáticamente
+						// TODO Bloque catch generado automÃ¡ticamente
 						e1.printStackTrace();
 					}
 					playercontrol.play();
 				} catch (BasicPlayerException e1) {
-					// TODO Bloque catch generado automáticamente
+					// TODO Bloque catch generado automÃ¡ticamente
 					e1.printStackTrace();
 				}
 			}
@@ -421,14 +421,14 @@ public class DynamicTable3 {
 
 							System.out.print(player3.getStatus());
 						} catch (BasicPlayerException e1) {
-							// TODO Bloque catch generado automáticamente
+							// TODO Bloque catch generado automÃ¡ticamente
 							e1.printStackTrace();
 						}
 					} else if (player3.getStatus() == 1) {
 						try {
 							player3.resume();
 						} catch (BasicPlayerException e1) {
-							// TODO Bloque catch generado automáticamente
+							// TODO Bloque catch generado automÃ¡ticamente
 							e1.printStackTrace();
 						}
 					}
@@ -451,14 +451,14 @@ public class DynamicTable3 {
 						player3.pause();
 						System.out.print(player3.getStatus());
 					} catch (BasicPlayerException e2) {
-						// TODO Bloque catch generado automáticamente
+						// TODO Bloque catch generado automÃ¡ticamente
 						e2.printStackTrace();
 					}
 
 					try {
 						TimeUnit.MILLISECONDS.sleep(100);
 					} catch (InterruptedException e1) {
-						// TODO Bloque catch generado automáticamente
+						// TODO Bloque catch generado automÃ¡ticamente
 						e1.printStackTrace();
 					}
 
@@ -592,17 +592,17 @@ public class DynamicTable3 {
 										// end of for block*/
 
 									} catch (IOException e1) {
-										// TODO Bloque catch generado automáticamente
+										// TODO Bloque catch generado automÃ¡ticamente
 										e1.printStackTrace();
 									}
 
 						}
 
-						int tamañoarray = 0;
+						int tamaÃ±oarray = 0;
 
 						int modelo = model.getRowCount();
-						tamañoarray = modelo;
-						String[] rutasp = new String[tamañoarray];
+						tamaÃ±oarray = modelo;
+						String[] rutasp = new String[tamaÃ±oarray];
 						for (int i = 0; i < model.getRowCount(); i++) {
 							rutasp[i] = (String) model.getValueAt(i, 1);
 
@@ -644,19 +644,19 @@ public class DynamicTable3 {
 						try {
 							TimeUnit.MILLISECONDS.sleep(100);
 						} catch (InterruptedException e1) {
-							// TODO Bloque catch generado automáticamente
+							// TODO Bloque catch generado automÃ¡ticamente
 							e1.printStackTrace();
 						}
 						papa();
 						try {
 							TimeUnit.MILLISECONDS.sleep(100);
 						} catch (InterruptedException e1) {
-							// TODO Bloque catch generado automáticamente
+							// TODO Bloque catch generado automÃ¡ticamente
 							e1.printStackTrace();
 						}
 						playercontrol.play();
 					} catch (BasicPlayerException e1) {
-						// TODO Bloque catch generado automáticamente
+						// TODO Bloque catch generado automÃ¡ticamente
 						e1.printStackTrace();
 					}
 					System.out.print("esto hacia algo antes");
@@ -700,7 +700,7 @@ public class DynamicTable3 {
 					FloatControl gainControl = (FloatControl) clip.getControl(FloatControl.Type.MASTER_GAIN);
 					gainControl.setValue(6.0f);
 				} catch (UnsupportedAudioFileException | IOException | LineUnavailableException e1) {
-					// TODO Bloque catch generado automáticamente
+					// TODO Bloque catch generado automÃ¡ticamente
 					e1.printStackTrace();
 				}
 			}
@@ -719,25 +719,25 @@ public class DynamicTable3 {
 
 			@Override
 			public void stateUpdated(BasicPlayerEvent paramBasicPlayerEvent) {
-				// TODO Esbozo de método generado automáticamente
+				// TODO Esbozo de mÃ©todo generado automÃ¡ticamente
 
 			}
 
 			@Override
 			public void setController(BasicController paramBasicController) {
-				// TODO Esbozo de método generado automáticamente
+				// TODO Esbozo de mÃ©todo generado automÃ¡ticamente
 
 			}
 
 			@Override
 			public void progress(int paramInt, long paramLong, byte[] paramArrayOfbyte, Map paramMap) {
-				// TODO Esbozo de método generado automáticamente
+				// TODO Esbozo de mÃ©todo generado automÃ¡ticamente
 
 			}
 
 			@Override
 			public void opened(Object paramObject, Map paramMap) {
-				// TODO Esbozo de método generado automáticamente
+				// TODO Esbozo de mÃ©todo generado automÃ¡ticamente
 
 			}
 		};
